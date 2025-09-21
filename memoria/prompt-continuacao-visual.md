@@ -53,10 +53,11 @@ Devagram-react/
 - **CDN CloudFront**: URLs não resolvem
 
 ### 2. 🎨 Melhorias Visuais
-- [ ] Tema escuro com gradientes
+- [x] Tema escuro com gradientes épicos
 - [ ] Animações de transição
 - [ ] Otimização de performance dos gradientes
 - [ ] Modo offline com visual consistente
+- [ ] Transições suaves entre temas
 
 ### 3. 🔧 Funcionalidades
 - [ ] Upload de imagens local (alternativa ao CDN)

@@ -22,6 +22,13 @@ Modernizar a interface do usuário com foco em experiência mobile-first e consi
 - **Elementos Transparentes**: Cards, posts e navegação transparentes
 - **Feed Alinhado**: Removido espaçamento entre header e feed
 
+### 🌙 Tema Escuro Épico
+- **Gradiente Diagonal Escuro**: Preto→azul escuro→azul marinho (315deg)
+- **Header Transparente**: Glassmorphism com blur em ambos os temas
+- **Posts Transparentes**: Efeito vidro fosco com bordas sutis
+- **Ícones Coloridos**: Vermelho (curtir), verde água (comentar), verde claro (compartilhar)
+- **Navegação Transparente**: Bottom nav com blur e sombras
+
 ### 📱 Bottom Navigation Mobile
 - **Navegação Moderna**: Substituiu rodapé antigo por bottom navigation
 - **Ícones Principais**:
@@ -80,7 +87,9 @@ Modernizar a interface do usuário com foco em experiência mobile-first e consi
 - [ ] Implementar modo offline
 - [ ] Adicionar gestos touch para navegação
 - [ ] Otimizar gradientes para performance
-- [ ] Implementar tema escuro com gradientes
+- [x] Implementar tema escuro com gradientes épicos
+- [ ] Adicionar mais variações de temas
+- [ ] Implementar transições suaves entre temas
 
 ## 📝 Notas Técnicas
 - Mantida compatibilidade com código existente
@@ -90,6 +99,8 @@ Modernizar a interface do usuário com foco em experiência mobile-first e consi
 - LocalStorage para persistência de tema
 
 ## 🎨 Paleta de Cores Utilizada
+
+### 🌅 Tema Claro
 ```scss
 // Background principal
 $gradiente-body: linear-gradient(135deg, #667eea, #764ba2, #ffffff);
@@ -98,11 +109,25 @@ $gradiente-body: linear-gradient(135deg, #667eea, #764ba2, #ffffff);
 $gradiente-header: linear-gradient(90deg, #ffffff 0%, #764ba2 50%, #667eea 100%);
 
 // Logo
-$gradiente-logo: linear-gradient(135deg, #ffffff 0%, #667eea 50%, #764ba2 100%);
+$gradiente-logo: linear-gradient(135deg, #764ba2 0%, #667eea 50%, #ffffff 100%);
 
 // Efeitos
-$hover-azul: rgba(103, 126, 234, 0.1);
 $glassmorphism: rgba(255, 255, 255, 0.15);
+```
+
+### 🌙 Tema Escuro
+```scss
+// Background principal
+$gradiente-body-escuro: linear-gradient(315deg, #000000, #1a1a2e, #16213e);
+
+// Glassmorphism escuro
+$glassmorphism-escuro: rgba(0, 0, 0, 0.15);
+
+// Ícones coloridos
+$icon-heart: #ff6b6b;
+$icon-comment: #4ecdc4;
+$icon-share: #a8e6cf;
+$icon-default: #4a90e2;
 ```
 
 ---
