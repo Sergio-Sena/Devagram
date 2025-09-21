@@ -1,0 +1,268 @@
+[
+  {
+    "endpoint": "POST /cadastro",
+    "status": 0,
+    "data": {
+      "erro": "Unexpected token 'C', \"Cannot rea\"... is not valid JSON"
+    },
+    "success": false
+  },
+  {
+    "endpoint": "POST /login",
+    "status": 400,
+    "data": {
+      "erro": "Usuario ou senha Invalidos"
+    },
+    "success": false
+  },
+  {
+    "endpoint": "GET /usuario",
+    "status": 200,
+    "data": {
+      "_id": "6851d6dd1d133ee1a0a0cc35",
+      "nome": "User 3",
+      "email": "user3@devagram.com",
+      "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/091d69c4-14f3-426f-a5e9-f27a5a61086f.jpg?v=1750256059301",
+      "seguidores": 2,
+      "seguindo": 2,
+      "publicacoes": 1
+    },
+    "success": true
+  },
+  {
+    "endpoint": "GET /feed",
+    "status": 200,
+    "data": [
+      {
+        "_id": "6852ea62c760e186087bbd3b",
+        "idUsuario": "6851d6dd1d133ee1a0a0cc33",
+        "descricao": "gloria a deus",
+        "foto": "https://d300dg8l84vihh.cloudfront.net/publicacoes/redim_28d17871-bf06-4ac3-808c-97047309f745.jpg?v=1750264418257",
+        "data": "2025-06-18T16:33:38.257Z",
+        "comentarios": [],
+        "likes": [],
+        "__v": 0,
+        "usuario": {
+          "nome": "Primario",
+          "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/1dc5db01-be20-45bf-a3be-f999d52cecdf.jpg"
+        }
+      },
+      {
+        "_id": "6852e65775df3e6977a049d4",
+        "idUsuario": "6851d6dd1d133ee1a0a0cc33",
+        "descricao": "sem ideias\r\n",
+        "foto": "https://d300dg8l84vihh.cloudfront.net/publicacoes/redim_a875a4b3-9a09-4bf1-a68f-476565649783.jpg?v=1750263383577",
+        "data": "2025-06-18T16:16:23.577Z",
+        "comentarios": [],
+        "likes": [],
+        "__v": 0,
+        "usuario": {
+          "nome": "Primario",
+          "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/1dc5db01-be20-45bf-a3be-f999d52cecdf.jpg"
+        }
+      },
+      {
+        "_id": "6852e34c75df3e6977a04940",
+        "idUsuario": "6851d6dd1d133ee1a0a0cc33",
+        "descricao": "se idieas",
+        "foto": "https://d300dg8l84vihh.cloudfront.net/publicacoes/redim_0a180f8d-f90a-42c6-836d-3844704f58e5.jpg?v=1750262604685",
+        "data": "2025-06-18T16:03:24.686Z",
+        "comentarios": [],
+        "likes": [],
+        "__v": 0,
+        "usuario": {
+          "nome": "Primario",
+          "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/1dc5db01-be20-45bf-a3be-f999d52cecdf.jpg"
+        }
+      },
+      {
+        "_id": "6852e1e275df3e6977a048e4",
+        "idUsuario": "6851d6dd1d133ee1a0a0cc33",
+        "descricao": "dani1",
+        "foto": "https://d300dg8l84vihh.cloudfront.net/publicacoes/redim_da0e7cb9-2ecb-432a-a5a0-c88f16efaf4b.jpg?v=1750262242517",
+        "data": "2025-06-18T15:57:22.517Z",
+        "comentarios": [],
+        "likes": [],
+        "__v": 0,
+        "usuario": {
+          "nome": "Primario",
+          "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/1dc5db01-be20-45bf-a3be-f999d52cecdf.jpg"
+        }
+      },
+      {
+        "_id": "6852e11f75df3e6977a048cc",
+        "idUsuario": "6851d6dd1d133ee1a0a0cc33",
+        "descricao": "casal cara da riquesa 2",
+        "foto": "https://d300dg8l84vihh.cloudfront.net/publicacoes/redim_9caa0342-a457-431c-bdaf-30377ff96e02.jpg?v=1750262047768",
+        "data": "2025-06-18T15:54:07.768Z",
+        "comentarios": [],
+        "likes": [],
+        "__v": 0,
+        "usuario": {
+          "nome": "Primario",
+          "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/1dc5db01-be20-45bf-a3be-f999d52cecdf.jpg"
+        }
+      },
+      {
+        "_id": "6852df1b75df3e6977a04881",
+        "idUsuario": "6851d6dd1d133ee1a0a0cc33",
+        "descricao": "Teste com imagem Cyber.png redimensionada automaticamente para 4:5",
+        "foto": "https://d300dg8l84vihh.cloudfront.net/publicacoes/redim_2048ab3d-63cc-4ad7-9303-ae73c1f566db.jpg?v=1750261531229",
+        "data": "2025-06-18T15:45:31.229Z",
+        "comentarios": [
+          {
+            "usuarioId": "6851d6dd1d133ee1a0a0cc33",
+            "nome": "Primario",
+            "comentario": "ate que enfin"
+          }
+        ],
+        "likes": [
+          "6851d6dd1d133ee1a0a0cc33"
+        ],
+        "__v": 0,
+        "usuario": {
+          "nome": "Primario",
+          "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/1dc5db01-be20-45bf-a3be-f999d52cecdf.jpg"
+        }
+      },
+      {
+        "_id": "6852de1075df3e6977a04861",
+        "idUsuario": "6851d6dd1d133ee1a0a0cc33",
+        "descricao": "Teste com imagem Cyber.png simplificada",
+        "foto": "https://d300dg8l84vihh.cloudfront.net/publicacoes/simples_9357208e-1aeb-4f66-a474-22234f201fc5.png?v=1750261264528",
+        "data": "2025-06-18T15:41:04.528Z",
+        "comentarios": [],
+        "likes": [],
+        "__v": 0,
+        "usuario": {
+          "nome": "Primario",
+          "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/1dc5db01-be20-45bf-a3be-f999d52cecdf.jpg"
+        }
+      },
+      {
+        "_id": "6852d4572856a534694bccb7",
+        "idUsuario": "6851d6dd1d133ee1a0a0cc33",
+        "descricao": "Teste com imagem Cyber.png",
+        "foto": "https://d300dg8l84vihh.cloudfront.net/publicacoes/simples_0f4a3435-bddc-4a60-bb29-c525cabe90b4.png?v=1750258775681",
+        "data": "2025-06-18T14:59:35.681Z",
+        "comentarios": [],
+        "likes": [],
+        "__v": 0,
+        "usuario": {
+          "nome": "Primario",
+          "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/1dc5db01-be20-45bf-a3be-f999d52cecdf.jpg"
+        }
+      },
+      {
+        "_id": "6852d2612856a534694bcc89",
+        "idUsuario": "6851d6dd1d133ee1a0a0cc33",
+        "descricao": "Teste via curl",
+        "foto": "https://d300dg8l84vihh.cloudfront.net/publicacoes/simples_961d8465-5b2c-413a-b02a-40452a2d304d.txt?v=1750258272945",
+        "data": "2025-06-18T14:51:12.945Z",
+        "comentarios": [],
+        "likes": [],
+        "__v": 0,
+        "usuario": {
+          "nome": "Primario",
+          "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/1dc5db01-be20-45bf-a3be-f999d52cecdf.jpg"
+        }
+      },
+      {
+        "_id": "6851e9414928aedf7c076edc",
+        "idUsuario": "6851d6dd1d133ee1a0a0cc33",
+        "descricao": "casal cara da riquesa",
+        "foto": "https://d300dg8l84vihh.cloudfront.net/publicacoes/bd05857e-8855-4692-bb98-e04bdea3f0b8.jpg",
+        "data": "2025-06-17T22:16:33.287Z",
+        "comentarios": [],
+        "likes": [],
+        "__v": 0,
+        "usuario": {
+          "nome": "Primario",
+          "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/1dc5db01-be20-45bf-a3be-f999d52cecdf.jpg"
+        }
+      },
+      {
+        "_id": "6851dcf04928aedf7c076c71",
+        "idUsuario": "6851d6dd1d133ee1a0a0cc34",
+        "descricao": "publicação 2",
+        "foto": "https://d300dg8l84vihh.cloudfront.net/publicacoes/a02d44b2-c2ff-4f84-b0ca-cd5198a0deae.jpg",
+        "data": "2025-06-17T21:24:00.437Z",
+        "comentarios": [],
+        "likes": [
+          "6851d6dd1d133ee1a0a0cc33"
+        ],
+        "__v": 0,
+        "usuario": {
+          "nome": "secundario",
+          "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/4be489a4-94f8-4ac2-8d4c-d71bab5dd2d0.jpg"
+        }
+      }
+    ],
+    "success": true
+  },
+  {
+    "endpoint": "GET /pesquisa",
+    "status": 200,
+    "data": [
+      {
+        "_id": "6851d6dd1d133ee1a0a0cc35",
+        "nome": "User 3",
+        "email": "user3@devagram.com",
+        "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/091d69c4-14f3-426f-a5e9-f27a5a61086f.jpg?v=1750256059301"
+      },
+      {
+        "_id": "6851d6dd1d133ee1a0a0cc33",
+        "nome": "Primario",
+        "email": "user1@devagram.com",
+        "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/1dc5db01-be20-45bf-a3be-f999d52cecdf.jpg"
+      },
+      {
+        "_id": "6851d6dd1d133ee1a0a0cc34",
+        "nome": "secundario",
+        "email": "user2@devagram.com",
+        "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/4be489a4-94f8-4ac2-8d4c-d71bab5dd2d0.jpg"
+      }
+    ],
+    "success": true
+  },
+  {
+    "endpoint": "POST /publicacao (sem arquivo)",
+    "status": 0,
+    "data": {
+      "erro": "Unexpected token 'o', \"not found\" is not valid JSON"
+    },
+    "success": false
+  },
+  {
+    "endpoint": "PUT /seguir",
+    "status": 400,
+    "data": {
+      "erro": "Usario  a ser seguido nao encontrado"
+    },
+    "success": false
+  },
+  {
+    "endpoint": "PUT /like",
+    "status": 400,
+    "data": {
+      "erro": "Publicacao nao encontrada"
+    },
+    "success": false
+  },
+  {
+    "endpoint": "PUT /comentario",
+    "status": 400,
+    "data": {
+      "erro": "Nao foi possivel localizar publicaçao"
+    },
+    "success": false
+  },
+  {
+    "endpoint": "DELETE /excluirPublicacao",
+    "status": 400,
+    "data": {
+      "erro": "ID da publicação não informado"
+    },
+    "success": false
+  }
+]
