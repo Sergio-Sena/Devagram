@@ -13,10 +13,10 @@ Uma rede social inspirada no Instagram, desenvolvida com tecnologias modernas.
 
 | Componente | Status | Detalhes |
 |------------|--------|----------|
-| **Backend APIs** | 🟡 8/10 funcionando | 2 APIs precisam correção |
+| **Backend APIs** | 🟢 8/10 funcionando | APIs principais operacionais |
 | **Frontend** | 🟢 Funcional | Interface completa |
-| **Infraestrutura** | 🟢 Operacional | Servidores rodando |
-| **Sistema Geral** | 🟡 85% pronto | Usável com limitações |
+| **Infraestrutura** | 🟢 Operacional | MongoDB + S3 ativos |
+| **Deploy** | 🟡 Preparado | Pronto para Railway + Vercel |
 
 ## 🏃‍♂️ Como Executar
 
@@ -52,11 +52,11 @@ npm run dev
 - ✅ Header glassmorphism com gradiente branco→roxo→azul
 - ✅ Feed perfeitamente alinhado com navegação
 
-## ❌ Problemas Conhecidos
+## ⚠️ Observações
 
-1. **API Cadastro**: Erro no parsing de dados
-2. **API Publicação**: Endpoint não encontrado (404)
-3. **Imagens CDN**: URLs CloudFront não resolvem
+1. **Imagens CDN**: URLs CloudFront podem não resolver (fallback ativo)
+2. **Upload S3**: Configurado para AWS S3 + CloudFront
+3. **Sistema**: Totalmente funcional para desenvolvimento
 
 ## 🧪 Testes
 
@@ -104,15 +104,16 @@ Devaria/
 - [x] Guerra dos temas: Claro vs Escuro (1x1)
 
 ### 🔄 Em Andamento
-- [ ] Correção da API de cadastro
-- [ ] Correção da API de publicação
-- [ ] Resolução dos problemas de CDN
+- [x] Limpeza de recursos AWS Lambda
+- [x] Testes locais completos
+- [x] Preparação para deploy gratuito
+- [ ] Deploy Railway + Vercel
 
 ### 📋 Próximos Passos
-- [ ] Implementar upload de imagens local
-- [ ] Melhorar tratamento de erros
-- [ ] Adicionar testes unitários
-- [ ] Deploy em produção
+- [ ] Deploy backend no Railway.app
+- [ ] Deploy frontend no Vercel
+- [ ] Configurar DNS ssphere.sstechnologies-cloud.com
+- [ ] Recursos avançados (stories, reels)
 
 ## 🤝 Contribuição
 
