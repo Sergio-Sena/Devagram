@@ -1,0 +1,106 @@
+# Dados sensíveis
+*.env
+*.env.local
+*.env.production
+.env*
+credentials.json
+secrets.json
+config.json
+*.key
+*.pem
+*.p12
+*.pfx
+*.cer
+*.crt
+*.der
+
+# Senhas e tokens
+*password*
+*token*
+*secret*
+*credentials*
+*api_key*
+*apikey*
+
+# Mídias
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.wmv
+*.flv
+*.webm
+*.m4v
+*.mpg
+*.mpeg
+*.3gp
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.wma
+*.m4a
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.ico
+*.webp
+*.pdf
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Backups
+backup/
+backups/
+_backup/
+_backups/
+*.backup
+*.bak
+_archive/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporários
+temp/
+tmp/
+*.tmp
+*.cache
