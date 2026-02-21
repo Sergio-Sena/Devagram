@@ -51,6 +51,9 @@ npm run dev
 - ✅ Background unificado com gradiente diagonal
 - ✅ Header glassmorphism com gradiente branco→roxo→azul
 - ✅ Feed perfeitamente alinhado com navegação
+- ✅ Páginas de login/cadastro com efeito glassmorphism
+- ✅ Background gradiente épico (roxo→azul→branco) nas páginas públicas
+- ✅ Logo SSphere com efeito neon e sombreamento 3D
 
 ## ⚠️ Observações
 
@@ -102,6 +105,9 @@ Devaria/
 - [x] Tema escuro épico com gradiente diagonal
 - [x] Ícones coloridos e navegação transparente
 - [x] Guerra dos temas: Claro vs Escuro (1x1)
+- [x] Efeito glassmorphism nas páginas de login/cadastro
+- [x] Background gradiente épico nas páginas públicas
+- [x] Logo SSphere com efeito neon e sombreamento 3D
 
 ### 🔄 Em Andamento
 - [x] Limpeza de recursos AWS Lambda
