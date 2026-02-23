@@ -25,7 +25,7 @@
       "avatar": "https://midia-devaria.s3.amazonaws.com/avatares/091d69c4-14f3-426f-a5e9-f27a5a61086f.jpg?v=1750256059301",
       "seguidores": 2,
       "seguindo": 1,
-      "publicacoes": 1
+      "publicacoes": 0
     },
     "success": true
   },
@@ -71,7 +71,7 @@
       },
       {
         "_id": "6851d6dd1d133ee1a0a0cc33",
-        "nome": "Primario",
+        "nome": "Sergio sena 1",
         "email": "user1@devagram.com",
         "avatar": "https://midia-devaria.s3.amazonaws.com/avatares/1dc5db01-be20-45bf-a3be-f999d52cecdf.jpg"
       },
