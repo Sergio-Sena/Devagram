@@ -54,6 +54,9 @@ npm run dev
 - ✅ Páginas de login/cadastro com efeito glassmorphism
 - ✅ Background gradiente épico (roxo→azul→branco) nas páginas públicas
 - ✅ Logo SSphere com efeito neon e sombreamento 3D
+- ✅ Barra de pesquisa moderna com dropdown animado
+- ✅ Estados visuais de loading e feedback na pesquisa
+- ✅ Página de publicação redesignada (fluxo único)
 
 ## ⚠️ Observações
 
@@ -108,11 +111,13 @@ Devaria/
 - [x] Efeito glassmorphism nas páginas de login/cadastro
 - [x] Background gradiente épico nas páginas públicas
 - [x] Logo SSphere com efeito neon e sombreamento 3D
+- [x] Barra de pesquisa moderna com dropdown glassmorphism
+- [x] UX aprimorada com estados visuais e animações
+- [x] Página de publicação redesignada (1-step flow)
 
 ### 🔄 Em Andamento
-- [x] Limpeza de recursos AWS Lambda
-- [x] Testes locais completos
-- [x] Preparação para deploy gratuito
+- [ ] Correção da lógica de contagem de publicações por usuário
+- [ ] Verificação de consistência entre contador e exibição
 - [ ] Deploy Railway + Vercel
 
 ### 📋 Próximos Passos

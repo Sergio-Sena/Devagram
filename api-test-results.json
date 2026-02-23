@@ -22,7 +22,7 @@
       "_id": "6851d6dd1d133ee1a0a0cc35",
       "nome": "User 3",
       "email": "user3@devagram.com",
-      "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/091d69c4-14f3-426f-a5e9-f27a5a61086f.jpg?v=1750256059301",
+      "avatar": "https://midia-devaria.s3.amazonaws.com/avatares/091d69c4-14f3-426f-a5e9-f27a5a61086f.jpg?v=1750256059301",
       "seguidores": 2,
       "seguindo": 1,
       "publicacoes": 1
@@ -35,25 +35,26 @@
     "data": [
       {
         "_id": "6851dcf04928aedf7c076c71",
-        "idUsuario": "6851d6dd1d133ee1a0a0cc34",
         "descricao": "publicação 2",
-        "foto": "https://d300dg8l84vihh.cloudfront.net/publicacoes/a02d44b2-c2ff-4f84-b0ca-cd5198a0deae.jpg",
+        "foto": "https://midia-devaria.s3.amazonaws.com/publicacoes/a02d44b2-c2ff-4f84-b0ca-cd5198a0deae.jpg",
         "data": "2025-06-17T21:24:00.437Z",
         "comentarios": [
           {
             "usuarioId": "6851d6dd1d133ee1a0a0cc35",
             "nome": "User 3",
             "comentario": "Boa foto"
+          },
+          {
+            "usuarioId": "6851d6dd1d133ee1a0a0cc33",
+            "nome": "Primario",
+            "comentario": "Que foto incrível!"
           }
         ],
         "likes": [
           "6851d6dd1d133ee1a0a0cc33"
         ],
         "__v": 0,
-        "usuario": {
-          "nome": "secundario",
-          "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/4be489a4-94f8-4ac2-8d4c-d71bab5dd2d0.jpg"
-        }
+        "usuario": {}
       }
     ],
     "success": true
@@ -66,19 +67,19 @@
         "_id": "6851d6dd1d133ee1a0a0cc35",
         "nome": "User 3",
         "email": "user3@devagram.com",
-        "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/091d69c4-14f3-426f-a5e9-f27a5a61086f.jpg?v=1750256059301"
+        "avatar": "https://midia-devaria.s3.amazonaws.com/avatares/091d69c4-14f3-426f-a5e9-f27a5a61086f.jpg?v=1750256059301"
       },
       {
         "_id": "6851d6dd1d133ee1a0a0cc33",
         "nome": "Primario",
         "email": "user1@devagram.com",
-        "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/1dc5db01-be20-45bf-a3be-f999d52cecdf.jpg"
+        "avatar": "https://midia-devaria.s3.amazonaws.com/avatares/1dc5db01-be20-45bf-a3be-f999d52cecdf.jpg"
       },
       {
         "_id": "6851d6dd1d133ee1a0a0cc34",
         "nome": "secundario",
         "email": "user2@devagram.com",
-        "avatar": "https://d300dg8l84vihh.cloudfront.net/avatares/4be489a4-94f8-4ac2-8d4c-d71bab5dd2d0.jpg"
+        "avatar": "https://midia-devaria.s3.amazonaws.com/avatares/4be489a4-94f8-4ac2-8d4c-d71bab5dd2d0.jpg"
       },
       {
         "_id": "68cf4aab540c8e8a7f2d8a88",
@@ -97,9 +98,9 @@
   },
   {
     "endpoint": "POST /publicacao (sem arquivo)",
-    "status": 0,
+    "status": 400,
     "data": {
-      "erro": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+      "erro": "Parâmetros de entrada não informados"
     },
     "success": false
   },
