@@ -1,6 +1,6 @@
-# 📱 Devagram - Rede Social
+# 📱 SSphere - Rede Social
 
-Uma rede social inspirada no Instagram, desenvolvida com tecnologias modernas.
+Uma rede social moderna inspirada no Instagram, desenvolvida com tecnologias cloud-native.
 
 ## 🚀 Tecnologias
 
@@ -16,7 +16,7 @@ Uma rede social inspirada no Instagram, desenvolvida com tecnologias modernas.
 | **Backend APIs** | 🟢 8/10 funcionando | APIs principais operacionais |
 | **Frontend** | 🟢 Funcional | Interface completa |
 | **Infraestrutura** | 🟢 Operacional | MongoDB + S3 ativos |
-| **Deploy** | 🟡 Preparado | Pronto para Railway + Vercel |
+| **Deploy** | 🟢 Online | Produção na Vercel |
 
 ## 🏃‍♂️ Como Executar
 
@@ -75,16 +75,18 @@ node test-problemas.js   # Testes específicos dos problemas
 ## 📁 Estrutura do Projeto
 
 ```
-Devaria/
-├── Devagram-Node/          # Backend
+SSphere/
+├── Devagram-Node/          # Backend (Node.js + Next.js)
 │   ├── pages/api/          # Endpoints da API
 │   ├── models/             # Modelos MongoDB
 │   └── middlewares/        # Middlewares (CORS, JWT, etc)
-├── Devagram-react/         # Frontend
+├── Devagram-react/         # Frontend (React + Next.js)
 │   ├── pages/              # Páginas Next.js
 │   ├── componentes/        # Componentes React
 │   └── services/           # Serviços de API
+├── docs/                   # Documentação de deploy
 ├── memoria/                # Documentação técnica
+├── scripts/                # Scripts utilitários
 └── test-*.js              # Scripts de teste
 ```
 
@@ -114,17 +116,18 @@ Devaria/
 - [x] Barra de pesquisa moderna com dropdown glassmorphism
 - [x] UX aprimorada com estados visuais e animações
 - [x] Página de publicação redesignada (1-step flow)
+- [x] Deploy em produção (Vercel)
+- [x] Domínio customizado configurado (ssphere.sstechnologies-cloud.com)
+- [x] CORS e variáveis de ambiente configuradas
 
 ### 🔄 Em Andamento
 - [ ] Correção da lógica de contagem de publicações por usuário
 - [ ] Verificação de consistência entre contador e exibição
-- [ ] Deploy Railway + Vercel
 
 ### 📋 Próximos Passos
-- [ ] Deploy backend no Railway.app
-- [ ] Deploy frontend no Vercel
-- [ ] Configurar DNS ssphere.sstechnologies-cloud.com
 - [ ] Recursos avançados (stories, reels)
+- [ ] Sistema de notificações em tempo real
+- [ ] Chat entre usuários
 
 ## 🤝 Contribuição
 

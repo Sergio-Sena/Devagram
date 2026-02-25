@@ -1,0 +1,11 @@
+{
+  "Changes": [{
+    "Action": "UPSERT",
+    "ResourceRecordSet": {
+      "Name": "ssphere.sstechnologies-cloud.com",
+      "Type": "CNAME",
+      "TTL": 300,
+      "ResourceRecords": [{"Value": "1720c08e7e50e029.vercel-dns-017.com"}]
+    }
+  }]
+}

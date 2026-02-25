@@ -1,0 +1,11 @@
+{
+  "Changes": [{
+    "Action": "CREATE",
+    "ResourceRecordSet": {
+      "Name": "ssphere.sstechnologies-cloud.com",
+      "Type": "CNAME",
+      "TTL": 300,
+      "ResourceRecords": [{"Value": "cname.vercel-dns.com"}]
+    }
+  }]
+}

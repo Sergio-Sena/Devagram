@@ -1,0 +1,33 @@
+{
+  "CallerReference": "ssphere-app-2025",
+  "Aliases": {
+    "Quantity": 0
+  },
+  "DefaultRootObject": "index.html",
+  "Origins": {
+    "Quantity": 1,
+    "Items": [
+      {
+        "Id": "midia-devaria-app",
+        "DomainName": "midia-devaria.s3.us-east-1.amazonaws.com",
+        "OriginPath": "/app",
+        "S3OriginConfig": {
+          "OriginAccessIdentity": ""
+        }
+      }
+    ]
+  },
+  "DefaultCacheBehavior": {
+    "TargetOriginId": "midia-devaria-app",
+    "ViewerProtocolPolicy": "redirect-to-https",
+    "MinTTL": 0,
+    "ForwardedValues": {
+      "QueryString": false,
+      "Cookies": {
+        "Forward": "none"
+      }
+    }
+  },
+  "Comment": "SSphere App Simple",
+  "Enabled": true
+}

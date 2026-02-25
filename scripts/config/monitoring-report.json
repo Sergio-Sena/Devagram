@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-02-23T22:22:50.134Z",
+  "tests": [
+    {
+      "test": "Login API",
+      "duration": "239ms",
+      "status": "SUCCESS",
+      "timestamp": "2026-02-23T22:22:50.377Z",
+      "details": {
+        "status": 200,
+        "responseSize": 208
+      }
+    },
+    {
+      "test": "Feed API",
+      "duration": "483ms",
+      "status": "SUCCESS",
+      "timestamp": "2026-02-23T22:22:50.861Z",
+      "details": {
+        "status": 200,
+        "postsCount": 20,
+        "responseSize": 6285
+      }
+    },
+    {
+      "test": "Pesquisa API",
+      "duration": "160ms",
+      "status": "SUCCESS",
+      "timestamp": "2026-02-23T22:22:51.021Z",
+      "details": {
+        "status": 200,
+        "usersFound": 5,
+        "responseSize": 760
+      }
+    },
+    {
+      "test": "Upload S3",
+      "duration": "1218ms",
+      "status": "SUCCESS",
+      "timestamp": "2026-02-23T22:22:52.240Z",
+      "details": {
+        "status": 200,
+        "message": "Publicação criada com sucesso",
+        "uploadSize": 70
+      }
+    },
+    {
+      "test": "Tratamento de Erro",
+      "duration": "151ms",
+      "status": "SUCCESS",
+      "timestamp": "2026-02-23T22:22:52.391Z",
+      "details": {
+        "status": 400,
+        "errorHandled": true,
+        "errorMessage": "Usuario ou senha Invalidos"
+      }
+    },
+    {
+      "test": "Teste de Carga (5 requisições)",
+      "duration": "591ms",
+      "status": "SUCCESS",
+      "timestamp": "2026-02-23T22:22:52.983Z",
+      "details": {
+        "requestsCount": 5,
+        "allSuccessful": true,
+        "avgResponseSize": 6272
+      }
+    }
+  ]
+}

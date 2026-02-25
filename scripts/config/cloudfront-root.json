@@ -1,0 +1,29 @@
+{
+  "CallerReference": "ssphere-root-2025",
+  "DefaultRootObject": "index.html",
+  "Origins": {
+    "Quantity": 1,
+    "Items": [
+      {
+        "Id": "midia-devaria-root",
+        "DomainName": "midia-devaria.s3.us-east-1.amazonaws.com",
+        "S3OriginConfig": {
+          "OriginAccessIdentity": ""
+        }
+      }
+    ]
+  },
+  "DefaultCacheBehavior": {
+    "TargetOriginId": "midia-devaria-root",
+    "ViewerProtocolPolicy": "redirect-to-https",
+    "MinTTL": 0,
+    "ForwardedValues": {
+      "QueryString": false,
+      "Cookies": {
+        "Forward": "none"
+      }
+    }
+  },
+  "Comment": "SSphere Root",
+  "Enabled": true
+}
